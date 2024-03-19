@@ -1,0 +1,7 @@
+*.zkey
+*.bak
+*.r1cs
+verifier*_*
+*.sol
+*.ptau
+*_js/

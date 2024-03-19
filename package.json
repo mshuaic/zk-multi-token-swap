@@ -1,0 +1,27 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "compile": "hardhat compile",
+    "testnet": "hardhat node",
+    "test": "hardhat test",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "circomlibjs": "^0.1.7",
+    "hardhat": "^2.14.0",
+    "nx": "16.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.10",
+    "@openzeppelin/contracts": "^4.9.6",
+    "@uniswap/v3-periphery": "^1.4.4",
+    "circomlib": "^2.0.5",
+    "snarkjs": "^0.7.3"
+  },
+  "nx": {
+    "targets": {}
+  }
+}
